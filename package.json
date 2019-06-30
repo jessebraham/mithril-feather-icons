@@ -1,0 +1,33 @@
+{
+  "name": "mithril-feather-icons",
+  "version": "0.1.0",
+  "description": "Use feather icons as mithril components",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js",
+    "clean": "rimraf ./components/ ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessebraham/mithril-feather-icons.git"
+  },
+  "keywords": [
+    "feather-icons",
+    "icons",
+    "mithril"
+  ],
+  "author": "Jesse Braham <jesse@beta7.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessebraham/mithril-feather-icons/issues"
+  },
+  "homepage": "https://github.com/jessebraham/mithril-feather-icons#readme",
+  "dependencies": {
+    "feather-icons": "^4.22.1",
+    "mithril": "^2.0.0-rc.6"
+  },
+  "devDependencies": {
+    "glob": "^7.1.4",
+    "rimraf": "^2.6.3"
+  }
+}
