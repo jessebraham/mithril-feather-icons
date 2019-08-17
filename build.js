@@ -44,7 +44,7 @@ const processFile = svgPath => {
 
   const fileString =
     'const m = require("mithril");\nmodule.exports = m(\n  ".icon",\n' +
-    `  m.trust(\n    '${svgData}'\n  ),\n);\n`;
+    `  m.trust(\n    '${svgData}',\n  ),\n);\n`;
   fs.writeFileSync(absDestPathJs, fileString);
 };
 
